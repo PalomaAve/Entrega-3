@@ -1,3 +1,43 @@
 body {
-    background-color: ;
+    background-color: #000000;
+}
+
+h1 {
+    text-align: center;
+    font-size: 6em;
+    color: #ff0000;
+
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+#subtitulo {
+    color: #f8f4f4;
+    text-align: center;
+    font-size: 3em;
+}
+
+p { 
+    color: #f8f4f4;
+    text-align: center;
+    font-size: 2em;
+}
+
+#enunciado {
+    font-weight: 500;
+}
+
+#peliculas {
+    background-color: #b96d6d;
+    border-color: #ff0000;
+    border-radius: 10px;
+    display:flex
+
+}
+
+#opciones {
+    color:#000000
+    font-size: 
 }

@@ -25,8 +25,9 @@ p {
     font-size: 2em;
 }
 
-#enunciado {
-    font-weight: 500;
+.enunciado {
+    font-style: italic;
+    font-size: 2.5em;
 }
 
 #peliculas {
@@ -39,5 +40,13 @@ p {
 
 #opciones {
     color:#000000
-    font-size: 
+}
+
+.enlace {
+    text-align: center;
+    color: #ff0000;
+}
+.centro {
+    display:grid; 
+    align-items: center;
 }

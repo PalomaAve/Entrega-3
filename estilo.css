@@ -68,6 +68,10 @@ p {
     padding: 10px 16px;
     font-size: 2em;
 }
+
+.enlace:hover{
+    color:#ff0000
+}
 .centro {
     display:grid; 
     align-items: center;

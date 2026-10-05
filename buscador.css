@@ -1,0 +1,107 @@
+body {
+    background-color: #000000;
+}
+
+h1 {
+    text-align: center;
+    font-size: 6em;
+    color: #ff0000;
+
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+#subtitulo {
+    color: #f8f4f4;
+    text-align: center;
+    font-size: 3em;
+}
+
+#subtitulos {
+    color:#f8f4f4;
+    font-size: 2em;
+}
+
+p { 
+    color: #ffffff;
+    text-align: center;
+    font-size: 2em;
+}
+
+.enunciado {
+    font-style: italic;
+    font-size: 2.5em;
+    color: #ffffff;
+}
+
+#plataformas { 
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.plataforma {
+    background-color: #b96d6d;
+    width: 300px;
+    min-height: 220px;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    box-sizing: border-box;
+    
+
+}
+
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+
+.texto {
+    font-size: 1.3em;
+    text-align: center;
+}
+
+
+.botones {
+    display: inline-block;
+    background-color: #ff0000;
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+.botones:hover {
+    background-color: #b30000;
+}
+
+.enlace {
+    text-align: center;
+    color: #17661f;
+    margin-top: auto;
+    padding: 10px 16px;
+    font-size: 2em;
+}
+
+.enlace:hover {
+    color:#ff0000
+}
+
+.final {
+    color:#f8f4f4
+
+}
+
+.finals {
+    text-align: center;
+}

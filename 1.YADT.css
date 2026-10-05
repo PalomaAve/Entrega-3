@@ -86,9 +86,23 @@ p {
     margin-bottom: 30px;
 }
 
+#final {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.opciones {
+    flex: 1 1 200px;
+    min-width: 0;
+    padding: 16px;
+    flex-direction: column;
+    align-items: center;
+}
+
 .enlace {
     text-align: center;
-    color: #17661f;
+    color: #ff0000;
     margin-top: 40px;
     padding: 10px 16px;
     font-size: 2em;
@@ -97,5 +111,5 @@ p {
 }
 
 .enlace:hover{
-    color:#ff0000
+    color:#0c275c
 }

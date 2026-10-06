@@ -1,0 +1,117 @@
+body {
+    background-color: #e7e4d8;
+}
+
+h1 {
+    text-align: center;
+    font-size: 6em;
+    color: #a0385b;
+  font-family: "Sue Ellen Francisco", cursive;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+#subtitulo {
+    color: #000000;
+    text-align: center;
+    font-size: 3em;
+}
+
+p { 
+    color: #000000;
+    text-align: center;
+    font-size: 2em;
+}
+
+.enunciado {
+    font-style: italic;
+    font-size: 2.5em;
+}
+
+#pelicula {
+    background-color:#a0385b;
+
+    border-radius: 10px;
+
+    width: 93vw;
+    padding: 40px;
+
+    box-sizing: border-box;
+
+    margin: 0 auto;
+
+    text-align: left;
+}
+
+.peliculas {
+    display: flex;
+    align-items: flex-start;
+    gap: 60px;
+    width: 100%;
+}
+
+.imagen {
+
+    width: 35%;
+    max-width: 450px;
+    height: auto;
+
+    object-fit: cover;
+
+    border-radius: 6px;
+
+    flex-shrink: 0;
+}
+
+.contenido p {
+    color: #000000;
+    text-align: left;
+    font-size: 1.4em;
+    line-height: 1.4;
+
+    margin: 0 0 18px 0;
+}
+
+.contenido .info {
+    font-size: 2.5em;
+    font-weight: bold;
+
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+#final {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.opciones {
+    flex: 1 1 200px;
+    min-width: 0;
+    padding: 16px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.enlace {
+    text-align: center;
+    color: #a0385b;
+    margin-top: 40px;
+    padding: 10px 16px;
+    font-size: 2em;
+    
+    display: block;
+}
+
+.enlace:hover{
+    color:#0c275c
+}
+
+@media (max-width:1000px) {
+    #pelicula {
+        height:fit-content;
+        width:fit-content;
+    }
+}

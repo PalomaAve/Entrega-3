@@ -113,3 +113,10 @@ p {
 .enlace:hover{
     color:#0c275c
 }
+
+@media (max-width:1000px) {
+    #pelicula {
+        height:fit-content;
+        width:fit-content;
+    }
+}
